@@ -1,0 +1,13 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+import sys
+import os.path
+
+"Módulo con las funciones necesarias para el programa procesador_numeros.py"
+
+def checkfile(archivo):
+	if os.path.isfile(archivo):
+		print "El archivo existe"
+	else:
+		print "El archivo no existe"
+

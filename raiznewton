@@ -1,0 +1,12 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
+import math
+import sys
+import os.path
+
+"Módulo con las funciones necesarias para el programa procesador_numeros.py"
+
+def raiz_newton(x,err):
+	while x or
+	
