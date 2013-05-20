@@ -1,0 +1,24 @@
+import math
+
+"""Clase que define a la figura geométricula 
+El constructor recibe el valor del lado como parámetro.
+Los métodos que tiene son: perímetro
+
+"""
+
+class Figuta(object):
+
+    # Constructor
+    def __init__(self, l):
+        self.lado = l
+
+    # Metodo especial para imprimir objeto amigablemente
+    def __str__(self):
+        return "FIGURA DE LADO: %s " % (self.lado)
+
+    # perímetro de la figura 	
+    def perimetro(self):
+	suma = 0
+	for lado in self.lado:
+		suma+= l
+	return suma
